@@ -1,0 +1,1 @@
+try{var c=sessionStorage.getItem('voile');sessionStorage.removeItem('voile');if(/^c[1-6]$/.test(c)&&!matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.setAttribute('data-voile',c)}catch(e){}
